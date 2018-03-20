@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc -o prog2 OS_Program2.c -pthread && ./prog2 $@
+gcc -o prog2 main.c prod_cons_MT.c prod_cons_MT.h -pthread && ./prog2 $@
 
